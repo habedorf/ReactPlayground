@@ -17,7 +17,7 @@ const Counter = () =>{
       <div>
         Count: {count}
         <hr />
-        <div>
+        <div className={"container mx-5"}>
           <button type="button" onClick={handleIncrease}>
             Increase
           </button>

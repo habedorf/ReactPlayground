@@ -29,7 +29,7 @@ setSearchTerm(event.target.value);
 };
 return (
 <div className={"container mx-5"}>
-<h1>My Hacker Stories</h1>
+<h1 className={"my-5"}>My Hacker Stories</h1>
 <label htmlFor="search">Search: </label>
 <input id="search" type="text" onChange={handleChange} />
 <p>
