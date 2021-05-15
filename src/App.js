@@ -31,7 +31,7 @@ return (
 <div className={"container mx-5"}>
 <h1 className={"my-5 text-2xl font-bold"}>My Hacker Stories</h1>
 <label htmlFor="search">Search: </label>
-<input id="search" type="text" onChange={handleChange} />
+<input className={"bg-blue-600"} id="search" type="text" onChange={handleChange} />
 <p>
 Searching for <strong>{searchTerm}</strong>.
 </p>
