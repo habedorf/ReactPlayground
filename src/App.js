@@ -37,8 +37,6 @@ Searching for <strong>{searchTerm}</strong>.
 </p>
 <hr />
 <List list={stories} />
-<h1>Test Nummer Zwei </h1>
-<h2>geht ?</h2>
 </div>
 );
 };
