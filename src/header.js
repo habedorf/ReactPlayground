@@ -2,7 +2,7 @@ import * as React from 'react';
 
 function Header(){
     return(
-<div className={"container mx-auto flex"}>
+<div className={"container mx-auto flex justify-around"}>
 
 
 <h1>test1</h1>
