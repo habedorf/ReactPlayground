@@ -2,10 +2,13 @@ import * as React from 'react';
 
 function Header(){
     return(
-<div className={"container mx-auto"}>
+<div className={"container mx-auto flex"}>
 
 
-<h1>test test test test </h1>
+<h1>test1</h1>
+<h1>test2</h1>
+<h1>test3</h1>
+<h1>test4</h1>
 </div>
 
     )
