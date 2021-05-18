@@ -28,7 +28,7 @@ const handleChange = event => {
 setSearchTerm(event.target.value);
 };
 return (
-<div className={"container mx-5"}>
+<div className={"container mx-auto"}>
 <h1 className={"my-5 text-2xl font-bold"}>My Hacker Stories</h1>
 <label className={"font-bold"} htmlFor="search">Search: </label>
 <input className={"bg-blue-600 rounded text-white"} id="search" type="text" onChange={handleChange} />
